@@ -35,6 +35,7 @@ const ListMovieVertical = ({ data }) => {
                 renderItem={renderItem}
                 keyExtractor={(_, index) => index.toString()}
                 data={data}
+                contentContainerStyle={{paddingBottom: 120}}
                 showsHorizontalScrollIndicator={false}
                 showsVerticalScrollIndicator={false}
                 ItemSeparatorComponent={() => <View style={{ height: 13 }} />}
